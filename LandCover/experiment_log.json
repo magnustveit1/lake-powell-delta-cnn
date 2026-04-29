@@ -1,0 +1,146 @@
+[
+  {
+    "chip_size": 8,
+    "coverage": 0.3,
+    "augmentation": false,
+    "train_chips": {
+      "Lake": 147,
+      "River": 1,
+      "Sediment Bank": 97,
+      "Rock": 147
+    },
+    "best_val_acc": 1.0,
+    "best_val_loss": 0.002215,
+    "best_epoch": 42,
+    "test_acc": 0.9885,
+    "test_loss": 0.062164
+  },
+  {
+    "chip_size": 8,
+    "coverage": 0.5,
+    "augmentation": false,
+    "train_chips": {
+      "Lake": 128,
+      "River": 0,
+      "Sediment Bank": 79,
+      "Rock": 128
+    },
+    "best_val_acc": 1.0,
+    "best_val_loss": 0.010597,
+    "best_epoch": 46,
+    "test_acc": 0.9865,
+    "test_loss": 0.0304
+  },
+  {
+    "chip_size": 8,
+    "coverage": 0.3,
+    "augmentation": true,
+    "train_chips": {
+      "Lake": 147,
+      "River": 1,
+      "Sediment Bank": 97,
+      "Rock": 147
+    },
+    "best_val_acc": 1.0,
+    "best_val_loss": 0.003201,
+    "best_epoch": 44,
+    "test_acc": 0.9885,
+    "test_loss": 0.027416
+  },
+  {
+    "chip_size": 8,
+    "coverage": 0.5,
+    "augmentation": true,
+    "train_chips": {
+      "Lake": 128,
+      "River": 0,
+      "Sediment Bank": 79,
+      "Rock": 128
+    },
+    "best_val_acc": 0.9286,
+    "best_val_loss": 0.130198,
+    "best_epoch": 49,
+    "test_acc": 0.9324,
+    "test_loss": 0.130214
+  },
+  {
+    "chip_size": 16,
+    "coverage": 0.3,
+    "augmentation": false,
+    "train_chips": {
+      "Lake": 37,
+      "River": 0,
+      "Sediment Bank": 23,
+      "Rock": 37
+    },
+    "best_val_acc": 0.5,
+    "best_val_loss": 1.233394,
+    "best_epoch": 6,
+    "test_acc": 0.3333,
+    "test_loss": 1.217741
+  },
+  {
+    "chip_size": 16,
+    "coverage": 0.5,
+    "augmentation": false,
+    "train_chips": {
+      "Lake": 29,
+      "River": 0,
+      "Sediment Bank": 14,
+      "Rock": 29
+    },
+    "best_val_acc": 0.5333,
+    "best_val_loss": 1.241192,
+    "best_epoch": 40,
+    "test_acc": 0.2222,
+    "test_loss": 1.239619
+  },
+  {
+    "chip_size": 16,
+    "coverage": 0.3,
+    "augmentation": true,
+    "train_chips": {
+      "Lake": 37,
+      "River": 0,
+      "Sediment Bank": 23,
+      "Rock": 37
+    },
+    "best_val_acc": 0.4444,
+    "best_val_loss": 1.280672,
+    "best_epoch": 3,
+    "test_acc": 0.25,
+    "test_loss": 1.266318
+  },
+  {
+    "chip_size": 16,
+    "coverage": 0.5,
+    "augmentation": true,
+    "train_chips": {
+      "Lake": 29,
+      "River": 0,
+      "Sediment Bank": 14,
+      "Rock": 29
+    },
+    "best_val_acc": 0.4667,
+    "best_val_loss": 1.370786,
+    "best_epoch": 14,
+    "test_acc": 0.3889,
+    "test_loss": 1.3776
+  },
+  {
+    "chip_size": 8,
+    "coverage": 0.3,
+    "augmentation": true,
+    "train_chips": {
+      "Lake": 147,
+      "River": 1,
+      "Sediment Bank": 97,
+      "Rock": 147
+    },
+    "best_val_acc": 1.0,
+    "best_val_loss": 0.002661,
+    "best_epoch": 49,
+    "test_acc": 0.9885,
+    "test_loss": 0.026873
+  }
+]

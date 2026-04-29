@@ -1,0 +1,20 @@
+name: 6160FinalEnv_PY311
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - rasterio
+  - geopandas
+  - pyproj
+  - pillow
+  - jupyterlab
+  - ipykernel
+  - pip
+  - pip:
+      - tensorflow

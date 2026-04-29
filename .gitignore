@@ -1,0 +1,25 @@
+# Ignore all data folders
+Data/
+RawData/
+Chips/
+
+# Ignore environments
+6160FinalEnv_PY311/
+env/
+venv/
+
+# Ignore raster / imagery files
+*.tif
+*.tiff
+
+# Ignore model weights / outputs
+*.h5
+*.ckpt
+*.pt
+
+# Python junk
+__pycache__/
+*.pyc
+
+# OS junk
+.DS_Store
